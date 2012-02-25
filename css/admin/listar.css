@@ -1,0 +1,310 @@
+div.container_table {
+
+    float:left;
+    width:100%;
+}
+
+table.tablelist {
+
+    width:100%;
+
+}
+tr#list_fields {
+
+    background:#C1E1FF;
+    font:normal 12px tahoma;
+
+}
+
+tr#list_fields th{
+
+    padding:4px 0;
+    border-top:1px solid #fff;
+    border-right:1px solid #fff;
+    text-align:center;
+    font:bold 13px arial;
+    color:#333;
+
+}
+table.tablelist td.lista {
+
+    border:1px solid #BFE1FF;
+    border-top:none;
+    border-left:none;
+    cursor:default;
+    font:normal 12px arial;
+    text-align:center;
+    padding:2px 4px;
+
+}
+
+table.tablelist td.lista a.a_destaq:focus {
+
+    border:solid 1px red !important;
+
+}
+
+table.tablelist td.lista label {
+
+    display:block;
+
+}
+
+h3.no_encontrado {
+
+    font:bold 18px verdana;
+    padding:15px;
+    border-top:solid 1px #AED7FC;
+    color: #f00;
+
+}
+
+a.link_option { 
+
+    font:normal 12px tahoma;
+    color:#06f;
+    margin:10px -10px 20px 20px;
+}
+
+.left {
+
+    text-align:left !important;
+} 
+
+div.pagination {
+
+    position:absolute;
+    right:3px;
+    bottom:-24px;
+    text-align:right;
+    width:300px;
+    z-index:10;
+} 
+
+div.pagination label {
+
+    font:bold 12px tahoma;
+    color:#333;
+}
+
+input.btn {
+
+    width:16px;
+    height:16px;
+    border:none;
+}
+
+input#activeLeft {
+
+    background:url("../../imagem/admin/arrow_left.png") no-repeat;
+    cursor:pointer;
+}
+
+input#activeRight {
+
+    background:url("../../imagem/admin/arrow_right.png") no-repeat;
+    cursor:pointer;
+}
+
+input#disabledLeft {
+
+    background:url("../../imagem/admin/arrow_left_disabled.png") no-repeat;
+}
+
+input#disabledRight {
+
+    background:url("../../imagem/admin/arrow_right_disabled.png") no-repeat;
+}
+
+p.quant {
+
+    position:absolute;
+    top:-22px;
+    right:5px;
+    width:300px;
+    font:normal 12px arial;
+    text-align:right;
+}
+
+/*Usuarios  Permissões*/
+
+div.fieldset {
+
+    float:left;
+    margin:0;
+    width:90%;
+    text-align:left;
+    padding:5px 0 5px 10px;
+}
+
+div.fieldset span {
+
+    float:left;
+    margin:0;
+    width:100%;
+    font:normal 13px tahoma;
+}
+
+h3.legend {
+
+    display:block;
+    font:bold 14px tahoma;
+    color:#333;
+}
+
+ul.field_acess {
+
+    float:left;
+    width:100%;
+    margin:5px 0 10px 0;
+}
+
+ul.field_acess li {
+
+    float:left;
+    width:25%;
+    padding:2px 3px;
+    font:normal 12px tahoma;
+}
+
+div.sub_conteudo {
+
+    float:left;
+    width:100%;
+}
+
+.busca_processos {
+
+    margin: 0 auto !important;
+    width: 540px;
+    padding: 20px 20px 20px 40px;
+    border: solid 1px #AED7FC;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    text-align: left;
+}
+
+.busca_processos label{
+
+    font: bold 13px tahoma;
+    color: #333333;
+    margin-top: 4px;
+}
+
+.busca_processos input[type=text],.busca_processos select {
+
+    border: solid 1px #333;
+    padding: 2px 3px;
+    margin: 2px 0 3px 0;
+}
+
+.busca_processos select {
+    margin-top: 4px;
+}
+
+.busca_processos input[type=text]:focus,.busca_processos select:focus {
+
+    border:solid 1px #AED7FC;
+    background:#EFF8FF;
+}
+
+/*Usuarios  Permissões*/
+
+div.fieldset {
+
+    float:left;
+    margin:0;
+    width:90%;
+    text-align:left;
+    padding:5px 0 5px 10px;
+}
+
+div.fieldset span {
+
+    float:left;
+    margin:0;
+    width:100%;
+    font:normal 13px tahoma;
+}
+
+h3.legend {
+
+    display:block;
+    font:bold 15px tahoma;
+    color:#36c;
+    text-decoration:underline;
+    margin-bottom: 5px;
+}
+
+ul.field_acess {
+
+    float:left;
+    width:100%;
+    margin:5px 0 10px 0;
+}
+
+ul.field_acess li {
+
+    float:left;
+    width:25%;
+    padding:2px 3px;
+    font:normal 12px tahoma;
+}
+
+div.sub_conteudo {
+
+    float:left;
+    width:100%;
+}
+
+strong.type {
+
+    font:bold 13px tahoma;
+    text-decoration:underline !important;
+}
+
+em.subtype {
+
+    font:normal 13px tahoma;
+}
+
+ul.lista_permissao {
+
+    float:left;
+    width:620px;
+}
+
+ul.lista_permissao li.border_li {
+
+    float:left;
+    width:600px;
+    padding:5px 5px 5px 10px;
+    border:solid 1px #C1E1FF;
+    margin-bottom:10px;
+}
+
+ul.lista_final {
+
+    float:left;
+    width:100%;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+ul.lista_final li.all_selected {
+
+    float:left;
+    width:100%;
+    margin-bottom: 5px;
+}
+
+ul.lista_final li.format {
+
+    float:left;
+    width:190px;
+    background:#DFF0FF;
+    padding:3px;
+    margin-bottom:3px;
+    margin-right:3px;
+    font:normal 12px tahoma;
+}

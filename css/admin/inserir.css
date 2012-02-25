@@ -1,0 +1,390 @@
+fieldset.all {
+
+    padding-top:20px;
+    margin-bottom:10px;
+}
+
+div.field {
+
+    float:left;
+    width:85%;
+    text-align:left;
+    padding:0 10px 0 10px;
+    height:38px;
+    margin-bottom:8px;
+}
+
+div.field_add {
+
+    float:left;
+    width:65%;
+    text-align:left;
+    padding:0 10px 0 10px;
+    margin-bottom:8px;
+    margin-left: 128px;
+}
+
+div.fieldKey,
+#key_img {
+
+    float:left;
+    width:85%;
+    text-align:left;
+    padding:0 10px 0 10px;
+    margin-bottom:8px;
+}
+
+#key_img {
+
+    padding:0;
+}
+
+div.field_textarea {
+
+    float:left;
+    display:block;
+    width:620px !important;
+    text-align:left;
+    padding:0 0 0 5px;
+    height:120px;
+    margin-bottom:8px;
+    margin-left: 4px;
+}
+
+div.field_textarea textarea {
+    width:420px !important;
+    height:100px;
+}
+
+div.field label.lbl,
+div.fieldKey label.lbl,
+div.field_textarea label.lbl {
+
+    float:left;
+    display:inline;
+    width:125px;
+    text-align:left;
+    font:bold 12px arial;
+    margin-top:2px;
+    margin-bottom:2px;
+    margin-right:3px;
+    text-align:right;
+}
+
+div.field .input_text,
+div.field_add .input_text,
+div.fieldKey .input_text,
+div.field #session {
+
+    float:left;
+    width:200px;
+    font:normal 13px tahoma;
+    padding:2px;
+}
+
+.big {
+
+    width: 350px !important;
+}
+
+.small {
+
+    width: 100px !important;
+}
+
+.smallPlus {
+
+    width: 50px !important;
+}
+
+div.field #session {
+
+    float:left;
+    width:120px;
+}
+
+span.aux_field {
+
+    float:left;
+    display:inline;
+    width:90%;
+    font:normal 10px tahoma;
+    color:#888;
+    position:relative;
+    margin-left:130px;
+    margin-top:2px;
+}
+
+span.aux_fieldInTable {
+
+    float: left;
+    width:200px;
+    font:normal 10px tahoma;
+    color:#888;
+    position:relative;
+    margin-top:2px;
+}
+
+.cont-field-groups {
+
+    float: left;
+    width: 70%;
+}
+.cont-field-groups label {
+
+    display: block;
+
+}
+
+div.field .input_text:focus,
+div.cadastro_imgs .input_text:focus,
+div.fieldKey .input_text:focus,
+div.field select:focus,
+div.field_textarea textarea:focus,
+li.add_words input:focus {
+
+    border:solid 2px #AED7FC;
+    background:#EFF8FF;
+
+}
+
+li.add_words a.color_a {
+    margin-top: 3px;
+}
+
+.erro_input {
+
+    background:#FFEFEF !important;
+    border:solid 1px #F00 !important;
+}
+.erro_span {
+
+    color:#FF3F3F !important;
+    font-weight:bold !important;
+}
+
+.erro_input:focus {
+
+    background:#FFEFEF !important;
+    border:solid 1px #F00 !important;
+}
+
+span#add_word {
+
+    float:left;
+    width:80px;
+    margin-left:5px;
+}
+
+span#add_word a {
+
+    float:left;
+    width:80px;
+    background:#C1E1FF;
+    border:solid 1px #A9D5FB;
+    padding:3px;
+    padding-right:2px;
+}
+
+span#add_word a em {
+
+    float:left;
+    width:58px;
+    margin:2px 0 0 4px;
+    font:bold 11px tahoma;
+    color:#000;
+}
+
+span#add_word a img {
+
+    float:left;
+    _margin-right:4px;
+}
+
+div#add_input_div {
+
+    float:left;
+    display:inline;
+    margin-left:128px;
+    width:400px;
+}
+div#add_input_div_img {
+
+    float:left;
+    display:inline;
+    margin-left:0;
+    width:300px;
+}
+input.key_input {
+
+    display:block;
+    margin-top:2px;
+}
+
+.add_words {
+
+    float:left;
+    margin-top:5px;
+    text-align:left;
+}
+
+.add_words a {
+
+    float:left;
+    font:normal 12px verdana;
+    color:#333;
+    text-align:left;
+}
+
+
+/*Inserção de Imagens*/
+
+div#container_cad_imgs {
+
+    float:left;
+    display:inline;
+    margin:0 0 0 15px;
+    padding:0;
+    width:96%;
+    margin-top:20px;
+    margin-bottom:50px;
+}
+
+div#container_cad_imgs h3 {
+
+    float:left;
+    width:100%;
+}
+
+div#container_cad_imgs h3 span {
+
+    float:left;
+    padding:3px 10px;
+    border:solid 1px #A9D5FB;
+    font:bold 13px arial;
+}
+
+div.cadastro_imgs {
+
+    float:left;
+    width:50%;
+}
+
+div.field_imagem {
+
+    float:left;
+    width:100%;
+}
+
+div.field_imagem label,
+#key_img label  {
+
+    float:left;
+    display:inline;
+    width:100%;
+    text-align:left;
+    font:bold 12px arial;
+    margin-top:2px;
+    margin-bottom:2px;
+    text-align:left;
+}
+
+div.field_imagem .input_text ,
+#key_img .input_text  {
+
+    float:left;
+    width:200px;
+    font:normal 13px arial;
+    padding:2px;
+}
+span.span_left {
+
+    float:left;
+    display:inline;
+    width:90%;
+    font:normal 10px tahoma;
+    color:#888;
+    position:relative;
+    margin-top:2px;
+}
+
+div.container_preview {
+
+    float:left;
+    width:308px;
+    height:229px;
+}
+
+div.preview_imagem {
+
+    float:left;
+    width:300px;
+    height:225px;
+    border-top:solid 4px #A9D5FB;
+    border-left:solid 4px #A9D5FB;
+    border-right:solid 4px #A9D5FB;
+    background:#fff;
+}
+
+div.legenda_imagem {
+
+    float:left;
+    width:280px;
+    height:30px;
+    border-bottom:solid 4px #A9D5FB;
+    border-left:solid 4px #A9D5FB;
+    border-right:solid 4px #A9D5FB;
+    background:#DFF0FF;
+    padding:3px 10px 0 10px;
+    font:normal 12px tahoma;
+}
+
+div.legenda_imagem strong {
+
+    float:left;
+    font:normal 14px verdana;
+    color:#333;
+    margin-top:4px;
+    margin-right:3px;
+}
+
+div.legenda_imagem a {
+
+    float:left;
+    font:normal 12px verdana;
+    margin-top:4px;
+}
+
+.title-field {
+    border-bottom: solid 1px #999;
+    font: bold 14px verdana;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.num_prestacao {
+    margin-bottom: 25px !important;
+}
+.num_prestacao label {
+    display: block;
+    margin-left:129px;
+    font: bold 12px arial;
+    margin-bottom: 2px;
+    color: #333;
+}
+.num_prestacao input {
+    margin-left:129px !important;
+}
+
+.color_a{
+    color:#316ac5 !important;
+}
+
+.color_b{
+    color:#FF3300 !important;
+}
+
+input[readonly], select[readonly], textarea[readonly] {background: buttonface;}

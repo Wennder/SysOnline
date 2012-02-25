@@ -1,0 +1,16 @@
+Manual de instalação SysAudi
+Instale o Wamp, versão 5 ou superior;
+Instale o Java JDK , versão 6 ou superior;
+Copie a pasta “sysaudi”  e cole na pasta c:\\wamp\www ou no caso de estar usando outro servidor, como o Xamp, copie na pasta que tem a mesma função de localhost.
+Coloque o arquivo “c:\\wamp\www\sysaudi\conversor\ConversorXls2Csv.jar” na área de trabalho;
+Crie o banco de dados com o nome “dbaditoria”;
+Exporte o banco de dados contido na pasta c:\\wamp\sysaudi\sql;
+Abra o arquivo c:\\wamp\www\sysaudi\include\include.init e altere a constante DIR_BASE inserindo o diretório onde está o sistema. No caso de estar usando o Wamp o direotório é: c:\\wamp\www.
+Ainda no mesmo aquivo altere a contante HTTP_URL inserindo a URL que irá representar o sistema. Exemplo: http://www.uespi.br/sysaudi ou no caso de estar rodando localmente a URL será: http://localhost/sysaudi/;
+No arquivo c:\\wamp\www\sysaudi\classes\base\persistencia\DatabaseConnectionFactory.class.php altere as configurações de conexão do seu servidor. Em c:\\wamp\www\sysaudi\conversor\libs\banco.php insira as mesmas configurações para o módulo de carregamento do arquivo CSV que fará a atualização da base de dados dos funcionários;
+Para o carregador de funcionários funcionar perfeitamente é preciso alterar o arquivo “c:\\wamp\www\sysaudi\conversor\libs\base.php” inserindo a url do sistema na constante $VOLTAR_SISTEMA;
+
+
+
+
+OBS: Provavelmente a versão do wamp em que foi desenvolvida o sistema, possa está desatualizada, o que poderá ocorrer alguns erros no sistema. A partir de quarta passarei a ir à Uespi para começarmos de vez a tratar sobre o sistema.

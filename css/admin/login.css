@@ -1,0 +1,209 @@
+div#wrapper {
+
+    background:#fff !important;
+    border:none;
+}
+
+div#meio {
+	
+	float:left;
+	display:inline;
+	width:100%;
+	border:none;
+	margin-bottom:0;
+}
+
+div#wrap_login {
+
+	margin:0 auto;
+	display:block;
+	width:665px;
+	height:500px;
+	background:url("../../imagem/admin/bkg_login.jpg");
+	margin-top:50px;
+}
+
+div#container_logo {
+
+	float:left;
+	width:365px;
+	margin-top:70px;
+}
+
+div#logo {
+
+	float:left; 
+	width:320px;
+	height:105px;
+	display:inline;
+	margin-top:6px;
+	margin-left:30px;
+}
+
+div#logo h1 {
+
+	float:left; 
+	width:320px;
+	height:105px;
+	display:inline;
+}
+
+div.information {
+
+	float:left;
+	width:250px;
+}
+
+div#container_login {
+
+	float:left;
+	width:250px;
+	margin-left:30px;
+	text-align:left;
+	margin-top:70px;
+}
+
+strong#msg {
+
+	float:left;
+	margin:0;
+	margin-bottom:15px;
+	color:#333;
+	font:bold 12px tahoma;
+}
+
+div#container_login p {
+
+	float:left;
+	margin:0 0 10px 0;
+	width:100%;
+}
+
+label.label {
+
+	float:left;
+	color:#333;
+	font:bold 12px tahoma;
+	width:45px;
+	margin-top:2px;
+	margin-right:5px;
+	text-align:right;
+}
+input.input-login {
+
+	float:left;
+	padding:2px;
+	border:solid 1px #ccc;
+	color:#333;
+	font:normal 14px tahoma;
+}
+input.input-login:focus {
+
+	border:solid 1px #999;
+}
+p.check {
+
+	float:left  !important;
+	display:inline  !important;
+	width:180px !important;
+	margin-left:46px !important;
+}
+
+ p.check label {
+ 
+	font:bold 11px tahoma !important;
+	color:#333;
+}
+
+input.button-login {
+
+	float:left;
+	width:90px;
+	background:url("../../imagem/admin/button_login.jpg") no-repeat;
+	border:none;	
+	font:bold 11px tahoma !important;
+	color:#333;
+	padding:5px 0; 
+	margin:0 0 0 50px;
+}
+
+span.mysenha {
+
+	float:left;
+	margin:0 0 0 25px;
+	font:normal 11px arial;
+}
+
+span.mysenha a {
+
+	color:#333 !important;
+}
+
+span.mysenha a:hover {
+
+	color:#555 !important;
+}
+
+#boxCad {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 700px;
+	margin-left: -350px;
+	z-index: 180;
+}
+/* #bgBody {
+	background-color: #000;
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+}
+
+div.recuperar {
+
+	float:left;
+	margin:0;
+	width:300px;
+	background:red;
+	border:solid 1px #333;
+	padding:20px;
+	_padding-bottom:0 !important;
+}
+
+div.recuperar p {
+
+	float:left;
+	width:286px;
+	border:solid 2px #333;
+	padding:5px;
+	margin:0;
+	margin-top:10px;
+}
+
+div.recuperar strong  {
+
+	display:block;
+	font:bold 14px tahoma;
+	color:#000;
+
+}
+
+div.recuperar span  {
+
+	display:block;
+	font:normal 11px tahoma;
+	color:#333;
+	margin:3px 0;
+}
+
+div.recuperar label {
+
+	float:left;
+	font:bold 13px tahoma;
+	color:#333;
+	margin-top:2px;
+} */
